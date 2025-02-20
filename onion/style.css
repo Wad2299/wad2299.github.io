@@ -1,0 +1,32 @@
+/* Wade Kollmann 2/20/25 */
+
+header {
+    background-color: navajowhite;
+}
+
+footer {
+    background-color: navajowhite;
+}
+
+p, ul, li {
+    font-size: 20px;
+}
+
+a:link {
+    color:firebrick;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:indianred;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:lightcoral;
+  }
+  
+  /* selected link */
+  a:active {
+    color:tomato;
+  }
