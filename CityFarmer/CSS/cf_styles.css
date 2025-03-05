@@ -1,0 +1,60 @@
+/*Wade Kollmann
+  2.27.25 */
+
+body {
+	background-color: #B8D1EB;
+	color: #000000;
+}
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+	float: left;
+	margin-right: 3%;
+	padding: 10px;
+}
+
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+
+main{
+	background-color: #C5A98B;
+	padding: 10px;	
+}
+
+main, footer { 
+	clear: both;
+}
+
+nav ul{
+	list-style-type: none;
+	/*margin-left: 23%;*/
+}
+
+main ul {
+	list-style-image: url(/Images/tomato.png);
+}
+
+h1 {
+	font-family: 'Brush Script Mt';
+	font-size: 80px;
+}
+
+h2 {
+	font-family: 'Brush Script Mt';
+	font-weight: normal;
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	font-size: .75em;
+	background-color: #8a7660;
+	padding: 10px;
+}
