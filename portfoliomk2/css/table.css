@@ -1,0 +1,19 @@
+table {
+    border: 2px solid white;
+    background-color: whitesmoke ;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+}
+
+thead {
+    background-color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: white;
+}
