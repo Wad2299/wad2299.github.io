@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="author" content="Wade Kollmann">
+    <meta name="description" content="a personal portfolio">
+    <meta name="keywords" content="HTML, portfolio, depression">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="mailto:wadekollmann@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+            <!-- Group Fields Together-->
+            <fieldset>
+            <legend>How do I contact you?</legend>
+                <!-- Company input type="text" completed below for you as an example-->
+                <div>         
+                    <label for="compName">Company name:</label>
+                    <input type="text" id="compName" name="compName"><br>
+                </div>
+
+                <!-- Person to Contact input type="text" -->
+                <div>
+                    <label for="contName">Person to contact:</label>
+                    <input type="text" id="contName" name="contName"><br>
+                </div>
+
+                    
+                <div>
+                    <!-- Email Text Box input type="text" -->	
+                    <label for="emailAddress">Email address:</label>
+                    <input type="text" id="emailAddress" name="emailAddress"><br>
+                    <!--Video 9.9 Building and Testing a Valid Form-->
+                </div>
+
+                <div>
+                <!-- Phone Number input type="text" -->
+                    <label for="phoneNumber">Phone number:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber"><br>
+                <!--Video 9.9 Building and Testing a Valid Form-->
+                </div>
+            </fieldset>
+
+            <!-- Group Fields Together, page 104 -->
+            <fieldset>
+                <div>
+                <legend>What opportunities are available at your company?</legend>
+                <!-- Select Box, https://www.w3schools.com/tags/tag_select.asp -->
+                <label for="cars">Type of Position</label>
+                    <select name="opportunities" id="opportunities">
+                    <option>-select-</option>
+                    <option>Internship</option>
+                    <option>Part-Time</option>
+                    <option>Full-Time</option>
+                    <option>Contract</option>
+                    <option>Temporary</option>
+                    <option>On Call</option>
+                </select>
+                </div>
+
+                <div id="findme">
+                <!-- Radio Buttons, https://www.w3schools.com/tags/att_input_type_radio.asp -->
+                    <label for="howyoufoundme">How did you find me?</label> 
+                  <input type="radio" id="linkedin" name="howyoufoundme" value="LinkedIn">
+                      <label for="linkedin">LinkedIn</label>
+                  <input type="radio" id="jobfair" name="howyoufoundme" value="JobFair">
+                      <label for="jobfair">Job Fair</label>
+                  <input type="radio" id="cwicorporatepartner" name="howyoufoundme" value="CWI Corporate Partner">
+                      <label for="cwicorporatepartner">CWI Corporate Partner</label> <br>
+
+                
+                    <!-- Text Area, https://www.w3schools.com/tags/tag_textarea.asp -->
+                    <textarea id="howshouldiprepare" name="prepare" rows="10" cols="100">How should I prepare for the interview?</textarea><br>
+                </div>
+                <div>
+                    <label for="worm?">Would you still love me if I was a worm?</label>
+                        <select name="worm?" id="worm?">
+                        <option>-select-</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit" class="btn">
+        </form>
+    </main>
+    
+    <footer>
+        <hr>
+        <p>&copy; 2025 My Website</p>
+        <p>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://www.github.com" target="_blank">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
