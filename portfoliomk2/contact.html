@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact Form</title>
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
-
-
     <meta name="author" content="Wade Kollmann">
     <meta name="description" content="a personal portfolio">
     <meta name="keywords" content="HTML, portfolio, depression">
@@ -60,11 +57,11 @@
             </fieldset>
 
             <!-- Group Fields Together, page 104 -->
-            <fieldset>
-                <div>
-                <legend>What opportunities are available at your company?</legend>
-                <!-- Select Box, https://www.w3schools.com/tags/tag_select.asp -->
-                <label for="cars">Type of Position</label>
+            <div>
+                <fieldset>    
+                    <legend>What opportunities are available at your company?</legend>
+                    <!-- Select Box, https://www.w3schools.com/tags/tag_select.asp -->
+                    <label for="position">Type of Position</label>
                     <select name="opportunities" id="opportunities">
                     <option>-select-</option>
                     <option>Internship</option>
@@ -73,10 +70,12 @@
                     <option>Contract</option>
                     <option>Temporary</option>
                     <option>On Call</option>
-                </select>
-                </div>
+                    </select>
+                </fieldset>
+            </div>
 
                 <div id="findme">
+                    
                 <!-- Radio Buttons, https://www.w3schools.com/tags/att_input_type_radio.asp -->
                     <label for="howyoufoundme">How did you find me?</label> 
                   <input type="radio" id="linkedin" name="howyoufoundme" value="LinkedIn">
@@ -98,7 +97,7 @@
                         <option>No</option>
                     </select>
                 </div>
-            </fieldset>
+          
             <div>
             <input type="submit" id="submit" value="Submit" class="btn">
             </div>
