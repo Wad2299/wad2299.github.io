@@ -9,20 +9,32 @@ main {
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
+    padding-bottom: 500px;
 }
 
-main h2 {
+main h1 {
     text-align: center;
     color: blueviolet;
+    font-family: sourcecode, 'Times New Roman', Times, serif;
 }
 main p {
-    font-size: 15px;
+    font-size: 1.5vw;
 }
 
 div {
     padding: 15px;
 }
 
+span {
+    font-weight: bold;
+    font-style: italic;
+}
 footer {
     text-align: center;
+    background-image: linear-gradient(white, blueviolet);   
+}
+
+@font-face {
+    font-family: sourcecode;
+    src: url(../fonts/SourceCodePro-Medium.otf);
 }

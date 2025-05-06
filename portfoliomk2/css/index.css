@@ -1,0 +1,16 @@
+main {
+    text-align: center;
+}
+.firefox:hover {
+    transform: scale(200%) ;
+    /*transition-duration: .5s;*/
+}
+
+.firefox {
+    transition: transform .5s ease-in-out;
+    padding: 3vw;
+}
+
+h1 {
+    font-size: 5vw;
+}

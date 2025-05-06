@@ -2,7 +2,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    padding-bottom: 15px;
+    padding-bottom: 1.5vw;
     overflow: hidden;
     background-image:linear-gradient(rgb(226, 226, 226), lightslategray);
     border-radius: 8px;
@@ -20,6 +20,7 @@
     text-align: center;
     padding: 20px 75px 0px 15px;
     text-decoration: none;
+    font-family: sourcecode, 'Times New Roman', Times, serif;
 }
 
 .menu li a:hover:not(.active) {
@@ -30,4 +31,9 @@
 
 .menu.active {
     background-color: #1c2541;
+}
+
+@font-face {
+    font-family: sourcecode;
+    src: url(../fonts/SourceCodePro-Medium.otf);
 }
